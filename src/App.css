@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.listSidebySide {
+  display: flex;
+  gap: 10px;
+}
+
+.ListItem {
+  display: grid;
+  grid-template-columns: 1fr 30px 30px;
+  gap: 10px;
+}
